@@ -1,0 +1,237 @@
+body {
+    margin: 0 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.kidscorner {
+    font-size: 25px;
+    padding-left: 1.5rem;
+}
+
+span {
+    color: #2196F3;
+}
+
+nav {
+    display: inline-block;
+    margin-right: 0;
+}
+
+nav.menu {
+    position: absolute;
+    top: 10px;
+    right: 2rem;
+}
+
+li {
+    display: inline-block;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(98, 102, 104);
+    display: inline-block;
+    margin: 5px;
+}
+
+.navbar p {
+    display: inline-block;
+}
+
+section.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/kids_main.jpg");
+    background-size: cover;
+    height: 30rem;
+    color: white;
+}
+
+i.fab {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0 0 3px rgb(0, 0, 0);
+    padding: 0.5em 0.6em;
+}
+
+
+section.header button {
+    position: absolute;
+    top: 28rem;
+    left: 5rem;
+    border: 2px solid #fff;
+    color: white;
+    background: transparent;
+    height: 2.3rem;
+    width: 10rem;
+    font-size: 19px;
+}
+
+section.header button:hover {
+    background-color: #34a3fec3;
+    color: #fff;
+    cursor: pointer;
+}
+
+section.header div {
+    position: absolute;
+    top: 16rem;
+    left: 5rem;
+    width: 20rem;
+}
+
+section.header div h1 {
+    font-size: 40px;
+}
+
+.our_offerings {
+    padding-top: 1px;
+    background-color: #2196F3;
+    color: white;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    padding: 2rem 5rem;
+    font-size: 15px;
+    text-align: center;
+}
+
+.offerings {
+    width: 20%;
+}
+
+.text {
+    width: 50%;
+    text-align: center;
+    margin: 3rem auto;
+
+    color: rgb(119, 122, 125);
+}
+
+.text a {
+    color: #2196F3;
+}
+
+.text h3 {
+    font-style: italic;
+}
+
+.text h2 {
+    font-style: italic;
+}
+
+.our_offerings h2 {
+    font-style: italic;
+}
+
+.upcoming {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#upcoming {
+    text-align: center;
+}
+
+.upcoming_item {
+    padding: 15px;
+    font-size: 15px;
+    text-align: center;
+    height: 30rem;
+}
+
+#upcomings {
+    width: 25rem;
+    height: 18rem;
+}
+
+.camp {
+    margin: 0;
+    font-size: 14px;
+    text-align: left;
+    color: rgb(98, 102, 104);
+}
+
+.date {
+    margin-top: 7px;
+    text-align: left;
+    color: rgb(98, 102, 104);
+}
+
+div.price {
+    background-color: #67b4f2;
+    color: #fff;
+    height: 40px;
+    width: 53px;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: 0;
+    font-size: 30px;
+}
+
+section#camps {
+    display: inline-flex;
+    width: 400px;
+}
+
+div.upcoming_item p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(98, 102, 104);
+    padding: 0 2rem;
+}
+
+hr {
+    margin: 0 0 0 2rem;
+    width: 88%;
+}
+
+button.enroll {
+    border: 2px solid rgb(32, 153, 218);
+    color: rgb(32, 153, 218);
+    background: transparent;
+    height: 2.3rem;
+    width: 9rem;
+    font-size: 15px;
+
+}
+
+div.upcoming_item button:hover {
+    background-color: #34a3fec3;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button {
+    text-align: left;
+    margin-left: 2rem;
+}
+
+footer {
+    background-color: #67b4f2;
+    padding: 10px;
+    height: 3rem;
+
+}
+
+footer p {
+    display: inline-flex;
+    margin-left: 5rem;
+    color: rgb(98, 102, 104);
+}
+
+footer a {
+    margin: 0 8px 5px 8px;
+}
+
+#first_el {
+    margin-left: 50rem;
+
+}

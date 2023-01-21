@@ -1,0 +1,38 @@
+body {
+    background: rgb(236, 220, 173);
+}
+
+img {
+    width: 30%;
+}
+
+.section {
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+    padding: 20px;
+}
+
+.section p, .section div {
+    text-align: left;
+} 
+
+.section div {
+    color: rgb(209, 94, 94);
+}
+
+div .blur_text {
+    margin-left: 20px;
+    color: grey;
+    text-shadow: 1px 1px;
+}
+
+.main_container {
+    border-radius: 25px;
+    border: solid rgb(74, 49, 49);
+    margin: 10rem 5rem;
+    text-align: center;
+    background: white;
+    padding: 20px 40px;
+    
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Формуляр</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="/action_page.php">
+            <label for="name">Име:</label>
+            <input type="text" name="firstname" placeholder="Калина" class="input">
+
+            <label for="lastname">Фамилия:</label>
+            <input type="text" name="lastname" placeholder="Борисова" class="input">
+
+            <label for="birthday">Дата на раждане:</label>
+            <input class="input" type="date"name="birthday">
+
+            <label for="email">Имейл:</label>
+            <input type="email" name="email" class="input">
+
+            <label for="password">Парола:</label>
+            <input type="password" name="password" class="input">
+
+            <label for="country">Град:</label>
+            <select name="country">
+                <option>Бургас</option>
+                <option>Варна</option>
+                <option>Пловдив</option>
+                <option>Русе</option>
+                <option>София</option>
+            </select>
+
+            <label for="subject">Разкажи малко за себе си:</label>
+            <textarea id="subject" name="subject" placeholder="Казвам се Калина Борисова. Моето любимо хоби е ..."
+                style="height:200px"></textarea>
+
+            <label for="Fav subject">Любими предмети:</label><br>
+            <input type="checkbox">
+            <label for="subject1">математика</label><br>
+            <input type="checkbox">
+            <label for="subject1">български език и литература</label><br>
+            <input type="checkbox">
+            <label for="subject1">изобразително изкуство</label><br>
+            <input type="checkbox">
+            <label for="subject1">история</label><br>
+            <input type="checkbox">
+            <label for="subject1">информационни технологии</label><br><br>
+
+            <label for="class">Клас:</label><br>
+            <input type="radio">
+            <label for="html">7</label><br>
+            <input type="radio">
+            <label for="html">8</label><br>
+            <input type="radio">
+            <label for="html">9</label><br>
+            <input type="radio">
+            <label for="html">10</label><br>
+            <input type="radio">
+            <label for="html">11</label><br>
+            <input type="radio">
+            <label for="html">12</label><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+</html>
